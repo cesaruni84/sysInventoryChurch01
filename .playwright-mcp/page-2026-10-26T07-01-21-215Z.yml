@@ -1,0 +1,33 @@
+- generic [ref=f4e2]:
+  - generic [ref=f4e27]:
+    - complementary [ref=f4e28]:
+      - generic [ref=f4e29]:
+        - link "Iglesia Cristiana de Avivamiento Tiempo de Restauración Inventario · Templo Central Javier Prado" [ref=f4e30] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f4e31]:
+            - generic [ref=f4e32]: Iglesia Cristiana de Avivamiento
+            - generic [ref=f4e33]: Tiempo de Restauración
+            - generic [ref=f4e34]: Inventario · Templo Central Javier Prado
+        - navigation [ref=f4e35]:
+          - generic [ref=f4e36]:
+            - button "Panel" [expanded] [ref=f4e37]
+            - link "Principal" [ref=f4e47] [cursor=pointer]:
+              - /url: /
+          - button "Bienes / Enseres" [ref=f4e49]
+          - button "Usuarios" [ref=f4e58]
+          - button "Configuración" [ref=f4e68]
+        - generic [ref=f4e75]:
+          - paragraph [ref=f4e76]: Cesar Oswaldo Perez Pinche
+          - paragraph [ref=f4e77]: cesaruni84@gmail.com
+          - button "Cerrar sesión" [ref=f4e78]
+    - generic [ref=f4e82]:
+      - banner [ref=f4e83]:
+        - generic [ref=f4e84]:
+          - generic [ref=f4e88]:
+            - text: "Sede:"
+            - strong [ref=f4e89]: Templo Central Javier Prado
+          - button "Cambiar sede" [ref=f4e90]:
+            - generic [ref=f4e94]: Cambiar
+      - main [ref=f4e95]:
+        - paragraph [ref=f4e96]: Cargando…
+  - status

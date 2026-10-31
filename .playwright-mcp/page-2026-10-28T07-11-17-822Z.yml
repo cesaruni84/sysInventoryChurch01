@@ -1,0 +1,35 @@
+- generic [ref=f4e2]:
+  - generic [ref=f4e7]:
+    - generic [ref=f4e9]:
+      - paragraph [ref=f4e10]: Iglesia Cristiana de Avivamiento
+      - heading "Tiempo de Restauración" [level=1] [ref=f4e11]
+      - paragraph [ref=f4e12]: Módulo de Inventario de Bienes y Enseres
+    - generic [ref=f4e13]:
+      - heading "Crear cuenta" [level=2] [ref=f4e14]
+      - generic [ref=f4e15]:
+        - generic [ref=f4e16]:
+          - generic [ref=f4e17]:
+            - generic [ref=f4e18]: Nombre
+            - textbox "Nombre" [active] [ref=f4e19]
+          - generic [ref=f4e20]:
+            - generic [ref=f4e21]: Apellido
+            - textbox "Apellido" [ref=f4e22]
+        - generic [ref=f4e23]:
+          - generic [ref=f4e24]: Correo
+          - textbox "Correo" [ref=f4e25]
+        - generic [ref=f4e26]:
+          - generic [ref=f4e27]: Contraseña
+          - textbox "Contraseña" [ref=f4e28]
+        - generic [ref=f4e29]:
+          - generic [ref=f4e30]: Confirmar contraseña
+          - textbox "Confirmar contraseña" [ref=f4e31]
+        - generic [ref=f4e32]:
+          - generic [ref=f4e33]: Sede
+          - combobox "Sede" [disabled] [ref=f4e34]:
+            - option "Cargando…" [selected]
+        - button "Crear cuenta" [ref=f4e35] [cursor=pointer]
+    - paragraph [ref=f4e36]:
+      - text: ¿Ya tienes cuenta?
+      - link "Inicia sesión" [ref=f4e37] [cursor=pointer]:
+        - /url: /login
+  - status

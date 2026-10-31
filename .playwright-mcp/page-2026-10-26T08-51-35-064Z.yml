@@ -1,0 +1,80 @@
+- generic [ref=e2]:
+  - generic [ref=e166]:
+    - complementary [ref=e167]:
+      - generic [ref=e168]:
+        - link "Iglesia Cristiana de Avivamiento Tiempo de Restauración Inventario · Templo Central Javier Prado" [ref=e169] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e170]:
+            - generic [ref=e171]: Iglesia Cristiana de Avivamiento
+            - generic [ref=e172]: Tiempo de Restauración
+            - generic [ref=e173]: Inventario · Templo Central Javier Prado
+        - navigation [ref=e174]:
+          - generic [ref=e175]:
+            - button "Panel" [expanded] [ref=e176]
+            - link "Principal" [ref=e186] [cursor=pointer]:
+              - /url: /
+          - button "Bienes / Enseres" [ref=e188]
+          - button "Usuarios" [ref=e197]
+          - button "Configuración" [ref=e207]
+        - generic [ref=e214]:
+          - paragraph [ref=e215]: Cesar Oswaldo Perez Pinche
+          - paragraph [ref=e216]: cesaruni84@gmail.com
+          - button "Cerrar sesión" [ref=e217]
+    - generic [ref=e221]:
+      - banner [ref=e222]:
+        - generic [ref=e223]:
+          - generic [ref=e227]:
+            - text: "Sede:"
+            - strong [ref=e228]: Templo Central Javier Prado
+          - button "Cambiar sede" [ref=e229]:
+            - generic [ref=e233]: Cambiar
+      - main [ref=e234]:
+        - generic [ref=e236]:
+          - heading "Dashboard" [level=1] [ref=e237]
+          - paragraph [ref=e238]: Resumen del inventario de bienes y enseres de la sede.
+        - generic [ref=e244]:
+          - paragraph [ref=e245]: Sede
+          - paragraph [ref=e246]: Templo Central Javier Prado
+        - generic [ref=e247]:
+          - generic [ref=e248]:
+            - generic [ref=e249]: Bienes registrados
+            - paragraph [ref=e254]: "0"
+          - generic [ref=e255]:
+            - generic [ref=e256]: Unidades totales
+            - paragraph [ref=e267]: "0"
+          - generic [ref=e268]:
+            - generic [ref=e269]: Valor total
+            - paragraph [ref=e275]: S/ 0.00
+          - generic [ref=e276]:
+            - generic [ref=e277]: Ubicaciones
+            - paragraph [ref=e281]: "0"
+        - generic [ref=e282]:
+          - generic [ref=e283]:
+            - heading "Estado de los bienes" [level=2] [ref=e284]
+            - list [ref=e285]:
+              - listitem [ref=e286]:
+                - generic [ref=e287]: B · Bueno
+                - generic [ref=e288]:
+                  - text: "0"
+                  - generic [ref=e289]: 0%
+              - listitem [ref=e290]:
+                - generic [ref=e291]: R · Regular
+                - generic [ref=e292]:
+                  - text: "0"
+                  - generic [ref=e293]: 0%
+              - listitem [ref=e294]:
+                - generic [ref=e295]: M · Malo
+                - generic [ref=e296]:
+                  - text: "0"
+                  - generic [ref=e297]: 0%
+          - generic [ref=e298]:
+            - generic [ref=e299]:
+              - heading "Últimos bienes registrados" [level=2] [ref=e300]
+              - link "Ver listado completo" [ref=e301] [cursor=pointer]:
+                - /url: /bienes
+            - paragraph [ref=e302]:
+              - text: Aún no hay bienes.
+              - link "Registra el primero" [ref=e303] [cursor=pointer]:
+                - /url: /bienes/nuevo
+              - text: .
+  - status

@@ -1,0 +1,18 @@
+- generic [ref=f3e2]:
+  - generic [ref=f3e42]:
+    - generic [ref=f3e44]:
+      - paragraph [ref=f3e45]: Iglesia Cristiana de Avivamiento
+      - heading "Tiempo de Restauración" [level=1] [ref=f3e46]
+      - paragraph [ref=f3e47]: Módulo de Inventario de Bienes y Enseres
+    - generic [ref=f3e48]:
+      - heading "Tu cuenta está pendiente de aprobación" [level=2] [ref=f3e49]
+      - generic [ref=f3e50]:
+        - paragraph [ref=f3e51]:
+          - text: Sesión iniciada como
+          - strong [ref=f3e52]: cesaruni84+prueba4@gmail.com
+          - text: .
+        - text: Un administrador debe asignarte un rol antes de que puedas usar el inventario. Cuando lo haga, pulsa «Actualizar».
+      - button "Actualizar" [ref=f3e53] [cursor=pointer]
+    - paragraph [ref=f3e54]:
+      - button "Cerrar sesión" [ref=f3e55] [cursor=pointer]
+  - status

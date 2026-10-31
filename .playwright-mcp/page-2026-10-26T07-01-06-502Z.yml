@@ -1,0 +1,23 @@
+- generic [ref=f4e2]:
+  - generic [ref=f4e7]:
+    - generic [ref=f4e9]:
+      - paragraph [ref=f4e10]: Iglesia Cristiana de Avivamiento
+      - heading "Tiempo de Restauración" [level=1] [ref=f4e11]
+      - paragraph [ref=f4e12]: Módulo de Inventario de Bienes y Enseres
+    - generic [ref=f4e14]:
+      - generic [ref=f4e15]:
+        - generic [ref=f4e16]: Correo
+        - textbox "Correo" [active] [ref=f4e17]
+      - generic [ref=f4e18]:
+        - generic [ref=f4e19]: Contraseña
+        - textbox "Contraseña" [ref=f4e20]
+      - generic [ref=f4e21]:
+        - generic [ref=f4e22]: Sede
+        - combobox "Sede" [disabled] [ref=f4e23]:
+          - option "Cargando…" [selected]
+      - button "Ingresar" [disabled]
+    - paragraph [ref=f4e24]:
+      - text: ¿No tienes cuenta?
+      - link "Regístrate" [ref=f4e25] [cursor=pointer]:
+        - /url: /crear-cuenta
+  - status

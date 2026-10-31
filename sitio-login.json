@@ -1,0 +1,128 @@
+{
+  "url": "http://localhost:5173/login",
+  "origen": "http://localhost:5173",
+  "ruta": "/login",
+  "titulo": "Inventario – Iglesia Cristiana Tiempo de Restauración",
+  "idioma": "es",
+  "capturadoEn": "2026-10-26T06:57:38.303Z",
+  "viewport": {
+    "ancho": 1280,
+    "alto": 720
+  },
+  "meta": [
+    {
+      "name": null,
+      "content": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    }
+  ],
+  "encabezados": [
+    {
+      "nivel": "H1",
+      "texto": "Tiempo de Restauración"
+    }
+  ],
+  "parrafos": [
+    "Iglesia Cristiana de Avivamiento",
+    "Módulo de Inventario de Bienes y Enseres",
+    "¿No tienes cuenta? Regístrate"
+  ],
+  "formularios": [
+    {
+      "id": null,
+      "accion": null,
+      "metodo": "get"
+    }
+  ],
+  "campos": [
+    {
+      "etiqueta": "Correo",
+      "tag": "input",
+      "tipo": "email",
+      "nombre": null,
+      "id": "email",
+      "placeholder": null,
+      "requerido": true,
+      "deshabilitado": false,
+      "autocomplete": "username"
+    },
+    {
+      "etiqueta": "Contraseña",
+      "tag": "input",
+      "tipo": "password",
+      "nombre": null,
+      "id": "password",
+      "placeholder": null,
+      "requerido": true,
+      "deshabilitado": false,
+      "autocomplete": "current-password"
+    },
+    {
+      "etiqueta": "Sede",
+      "tag": "select",
+      "tipo": "select-one",
+      "nombre": null,
+      "id": "sede",
+      "placeholder": null,
+      "requerido": true,
+      "deshabilitado": false,
+      "autocomplete": null,
+      "opciones": [
+        {
+          "valor": "",
+          "texto": "Selecciona la sede",
+          "seleccionada": true
+        },
+        {
+          "valor": "1",
+          "texto": "Templo Central Javier Prado",
+          "seleccionada": false
+        },
+        {
+          "valor": "2",
+          "texto": "Anexo de Prueba",
+          "seleccionada": false
+        },
+        {
+          "valor": "3",
+          "texto": "Anexo San Gregorio ( Prueba )",
+          "seleccionada": false
+        },
+        {
+          "valor": "4",
+          "texto": "Anexo Callao ( Prueba )",
+          "seleccionada": false
+        }
+      ]
+    }
+  ],
+  "botones": [
+    {
+      "texto": "Ingresar",
+      "tipo": "submit",
+      "deshabilitado": true
+    }
+  ],
+  "enlaces": [
+    {
+      "texto": "Regístrate",
+      "href": "/crear-cuenta"
+    }
+  ],
+  "hojasEstilo": [
+    {
+      "rel": "icon",
+      "href": "/images/logo_.jpg"
+    }
+  ],
+  "scripts": [
+    "/@vite/client",
+    "/src/main.tsx?t=1792978595080"
+  ],
+  "localStorage": [],
+  "cookies": [],
+  "textoVisible": "Iglesia Cristiana de Avivamiento\n\nTiempo de Restauración\n\nMódulo de Inventario de Bienes y Enseres\n\nCorreo\nContraseña\nSede\nSelecciona la sede\nTemplo Central Javier Prado\nAnexo de Prueba\nAnexo San Gregorio ( Prueba )\nAnexo Callao ( Prueba )\nIngresar\n\n¿No tienes cuenta? Regístrate"
+}

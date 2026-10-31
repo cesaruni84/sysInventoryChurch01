@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'Lora', ui-serif, Georgia, serif;
+
+  --color-background: #faf9f6;
+  --color-surface: #ffffff;
+  --color-foreground: #1c1f1d;
+  --color-muted: #6b716d;
+  --color-border: #e4e2dc;
+  --color-primary: #1f4d3a;
+  --color-primary-hover: #183d2e;
+  --color-primary-soft: #ede9df;
+
+  /* Botones principales (Registrar, Guardar, Ingresar, Exportar…). */
+  --color-boton: #0e666c;
+  --color-boton-hover: #0b5257;
+
+  --color-bueno: #1f6b45;
+  --color-regular: #f3e9c9;
+  --color-regular-fg: #7a5a0c;
+  --color-malo: #c62828;
+}
+
+body {
+  @apply bg-background text-foreground font-sans antialiased;
+}
+
+/* Tailwind v4 deja los botones con el cursor por defecto: se restaura la manito. */
+@layer base {
+  button:not(:disabled),
+  [role='button']:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 10mm;
+  }
+  body {
+    background: #fff;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-area {
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+  .print-area thead {
+    display: table-header-group;
+  }
+  .print-area tr {
+    break-inside: avoid;
+  }
+}

@@ -1,0 +1,27 @@
+- generic [ref=f3e2]:
+  - generic [ref=f3e7]:
+    - generic [ref=f3e9]:
+      - paragraph [ref=f3e10]: Iglesia Cristiana de Avivamiento
+      - heading "Tiempo de Restauración" [level=1] [ref=f3e11]
+      - paragraph [ref=f3e12]: Módulo de Inventario de Bienes y Enseres
+    - generic [ref=f3e14]:
+      - generic [ref=f3e15]:
+        - generic [ref=f3e16]: Correo
+        - textbox "Correo" [ref=f3e17]: cesaruni84@gmail.com
+      - generic [ref=f3e18]:
+        - generic [ref=f3e19]: Contraseña
+        - textbox "Contraseña" [active] [ref=f3e20]: restauracion1
+      - generic [ref=f3e21]:
+        - generic [ref=f3e22]: Sede
+        - combobox "Sede" [ref=f3e23]:
+          - option "Selecciona la sede"
+          - option "Templo Central Javier Prado" [selected]
+          - option "Anexo de Prueba"
+          - option "Anexo San Gregorio ( Prueba )"
+          - option "Anexo Callao ( Prueba )"
+      - button "Ingresar" [ref=f3e26]
+    - paragraph [ref=f3e24]:
+      - text: ¿No tienes cuenta?
+      - link "Regístrate" [ref=f3e25] [cursor=pointer]:
+        - /url: /crear-cuenta
+  - status
